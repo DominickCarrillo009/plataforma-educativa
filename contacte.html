@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta - INSTITUT INFORMÀTIC DE BARCELONA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecera-principal">
+        <img src="imagenes/pc.png" alt="Logo ordenador" class="logo-imagen">
+        <h1 class="titulo-instituto">INSTITUT INFORMÀTIC DE BARCELONA</h1>
+    </header>
+
+    <nav class="barra-nav">
+        <div class="nav-links-izquierda">
+            <a href="index.html" target="_blank" class="nav-enlace">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+            <a href="contacte.html" target="_blank" class="nav-enlace">
+                <i class="fa-solid fa-user"></i> Contacte
+            </a>
+            <a href="calendar.html" target="_blank" class="nav-enlace">
+                <i class="fa-solid fa-calendar-days"></i> Calendar
+            </a>
+        </div>
+        <div class="nav-campana" tabindex="0">
+            <i class="fa-solid fa-bell"></i>
+            <div class="caja-dropdown">
+                <div class="dropdown-header">Notificaciones</div>
+                <a href="Sistemas.html" target="_blank" class="notif-item">Nova tasca de sistemes operatius</a>
+                <a href="Xarxes.html" target="_blank" class="notif-item">Nova tasca de Xarxes Locals</a>
+                <a href="Programacio.html" target="_blank" class="notif-item">Recordatori lliure tasca, programació</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="contenido-contacto">
+
+        <h2 class="titulo-contacto">Contacta amb nosaltres:</h2>
+
+        <div class="layout-contacto">
+
+            <aside class="info-contacto">
+                <p class="info-intro">Envia un missatge per a obtenir més informació:</p>
+                <p class="info-detalle">
+                    Tens algun dubte o vols concertar una cita amb el centre?
+                    T'has quedat amb ganes de conèixer més en profunditat el nostre model
+                    educatiu o visitar les instal·lacions d'algun dels nostres centres?
+                </p>
+
+                <!-- icono de sobre de email -->
+                <div class="dato-contacto">
+                    <i class="fa-solid fa-envelope dato-icono"></i>
+                    <div>
+                        <strong>Email</strong>
+                        <p>instituto@informatico.bcn.com</p>
+                    </div>
+                </div>
+
+                <!-- icono de teléfono -->
+                <div class="dato-contacto">
+                    <i class="fa-solid fa-phone dato-icono"></i>
+                    <div>
+                        <strong>Telèfon</strong>
+                        <p>De dilluns a divendres de 9:00 h a 13:00 h</p>
+                    </div>
+                </div>
+
+                <!-- icono de ubicación -->
+                <div class="dato-contacto">
+                    <i class="fa-solid fa-location-dot dato-icono"></i>
+                    <div>
+                        <strong>Ubicación</strong>
+                        <p>Carrer de Sant Picassó, 13, 11, 08035 Barcelona</p>
+                    </div>
+                </div>
+
+                <!-- Iconos de redes sociales -->
+                <div class="redes-sociales">
+                    <strong>Xarxes socials</strong>
+                    <div class="iconos-redes">
+                        <a href="#" class="red-social"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="red-social"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="red-social"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="red-social"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="seccion-formulario">
+                <form class="formulario-contacto" action="#" method="post">
+
+                    <div class="fila-formulario">
+                        <input type="text" name="nombre" placeholder="Nom..." class="campo-input">
+                        <input type="text" name="apellidos" placeholder="Cognoms..." class="campo-input">
+                    </div>
+
+                    <div class="fila-formulario">
+                        <input type="tel" name="telefono" placeholder="Telèfon..." class="campo-input">
+                        <input type="email" name="email" placeholder="Correu electrònic..." class="campo-input">
+                    </div>
+
+                    <div class="fila-formulario">
+                        <select name="ciudad" class="campo-input">
+                            <option value="" disabled selected>Ciutat...</option>
+                            <option value="barcelona">Barcelona</option>
+                            <option value="madrid">Madrid</option>
+                            <option value="valencia">Valencia</option>
+                        </select>
+                        <select name="provincia" class="campo-input">
+                            <option value="" disabled selected>Província...</option>
+                            <option value="barcelona">Barcelona</option>
+                            <option value="madrid">Madrid</option>
+                            <option value="valencia">Valencia</option>
+                        </select>
+                    </div>
+
+                    <div class="fila-formulario">
+                        <input type="text" name="curso" placeholder="Curs d'interès" class="campo-input campo-ancho">
+                    </div>
+
+                    <div class="fila-formulario">
+                        <textarea name="comentarios" placeholder="Comentaris..." class="campo-textarea"></textarea>
+                    </div>
+
+                    <div class="fila-checkbox">
+                        <input type="checkbox" id="politica" name="politica" required>
+                        <label for="politica">Accepto la política de privacitat</label>
+                    </div>
+
+                    <div class="fila-formulario">
+                        <button type="submit" class="boton-submit">
+                            <i class="fa-solid fa-paper-plane"></i> Submit
+                        </button>
+                    </div>
+
+                </form>
+            </section>
+
+        </div>
+
+    </main>
+    <footer class="pie-pagina">
+        <p>&copy; 2026 INSTITUT INFORMÀTIC DE BARCELONA. Tots els drets reservats.</p>
+    </footer>
+</body>
+
+</html>
