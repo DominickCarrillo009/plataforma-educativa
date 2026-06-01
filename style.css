@@ -10,9 +10,7 @@ a {
 }
 
 
-/* -----------------------------------------------
-   HEADER
------------------------------------------------ */
+
 .cabecera-principal {
     display: flex;
     align-items: center;
@@ -37,9 +35,7 @@ a {
 }
 
 
-/* -----------------------------------------------
-   Barra blanca - navegación
------------------------------------------------ */
+
 .barra-nav {
     display: flex;
     align-items: center;
@@ -91,9 +87,7 @@ a {
 }
 
 
-/* -----------------------------------------------
-   INDEX 
------------------------------------------------ */
+
 .contenido-principal {
     background-color: #076929fe;
     min-height: 80vh;
@@ -101,10 +95,6 @@ a {
 }
 
 
-/* -----------------------------------------------
-   rejilla-asignaturas
-   
------------------------------------------------ */
 .rejilla-asignaturas {
     display: flex;
     flex-wrap: wrap;
@@ -115,9 +105,7 @@ a {
 }
 
 
-/* -----------------------------------------------
-   TARJETA 
------------------------------------------------ */
+
 .tarjeta {
     background-color: #ffffff;
     border-radius: 8px;
@@ -166,9 +154,7 @@ a {
 }
 
 
-/* ================================================
-   ESTILOS DE asignatura.html
-   ================================================ */
+
 
 
 .barra-titulo-asignatura {
@@ -278,9 +264,7 @@ a {
 }
 
 
-/* ================================================
-   ESTILOS DE contacte.html
-   ================================================ */
+
 
 .contenido-contacto {
     background-color: #076929fe;
@@ -561,14 +545,14 @@ footer {
     margin-bottom: 0;
 }
 
-/* El contenedor debe ser relativo para guiar al menú */
+
 .nav-campana {
     position: relative;
     display: inline-block;
-    /*cursor: pointer;*/
+   
 }
 
-/* Ocultar el dropdown por defecto y posicionarlo a la derecha */
+
 .caja-dropdown {
     display: none;
     position: absolute;
@@ -582,13 +566,13 @@ footer {
     z-index: 100;
 }
 
-/* Mostrar al pasar el cursor por encima */
+
 .nav-campana:hover .caja-dropdown,
 .nav-campana:focus-within .caja-dropdown {
     display: block;
 }
 
-/* Estilos visuales del contenido del dropdown */
+
 .dropdown-header {
     padding: 12px;
     font-weight: bold;
